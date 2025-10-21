@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ - YoutubeChannels</title>
+    <script>
+        const userLang = navigator.language || navigator.userLanguage;
+        if (!userLang.startsWith('ja')) {
+            window.location.href = 'contact-en.html';
+        }
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            color: #007AFF;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .contact-methods {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contact-card {
+            display: block;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #000;
+            transition: background 0.2s;
+        }
+        .contact-card:hover {
+            background: #e5e5e5;
+        }
+        .contact-card h2 {
+            margin: 0 0 8px 0;
+            font-size: 18px;
+            color: #007AFF;
+        }
+        .contact-card p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+        }
+        .email {
+            color: #007AFF;
+            font-weight: 500;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #007AFF;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .note {
+            margin-top: 30px;
+            padding: 15px;
+            background: #FFF3CD;
+            border: 1px solid #FFE69C;
+            border-radius: 8px;
+            color: #856404;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-switch">
+        日本語 | <a href="contact-en.html">English</a>
+    </div>
+    
+    <h1>お問い合わせ</h1>
+    <p class="subtitle">ご質問やご意見がありましたら、以下の方法でお問い合わせください。</p>
+
+    <div class="contact-methods">
+        <a href="mailto:tokomatokomac@gmail.com?subject=YoutubeChannelsについてのお問い合わせ&body=お名前：%0D%0Aメールアドレス：%0D%0A%0D%0Aお問い合わせ内容：%0D%0A" class="contact-card">
+            <h2>📧 メールでお問い合わせ</h2>
+            <p>クリックするとメールアプリが開きます</p>
+            <p class="email">tokomatokomac@gmail.com</p>
+        </a>
+    </div>
+
+    <div class="note">
+        💡 メールアプリが開かない場合は、上記のメールアドレスに直接ご連絡ください。
+    </div>
+
+    <a href="index.html" class="back-link">← トップページに戻る</a>
+</body>
+</html>
