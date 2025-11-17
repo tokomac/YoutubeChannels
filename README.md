@@ -47,12 +47,8 @@ YouTubeの動画を検索・お気に入り登録し、友達と共有できる�
 - YouTube Data API
 
 ### ダウンロード
+<a href="https://apps.apple.com/us/app/chanpla/id1635696162?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1659312000&h=c2ccaa3ca47b1c88aba377b97e69d13b" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
-🚀 近日公開予定
-
-<!-- App Store配信後に以下を追加
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](App StoreのURL)
--->
 
 ### 法的情報
 
@@ -109,12 +105,7 @@ An iOS application for searching, bookmarking, and sharing YouTube videos with f
 - YouTube Data API
 
 ### Download
-
-🚀 Coming Soon
-
-<!-- After App Store release, add:
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](App Store URL)
--->
+<a href="https://apps.apple.com/us/app/chanpla/id1635696162?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1659312000&h=c2ccaa3ca47b1c88aba377b97e69d13b" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
 ### Legal Information
 
